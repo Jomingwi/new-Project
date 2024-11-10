@@ -8,18 +8,11 @@ public partial class SceneMgr : MonoBehaviour
     private void Awake()
     {
         Shared.SceneMgr = this;
+
+        //DontDestroyOnLoad(this);
     }
 
-    void Start()
-    {
-        
-    }
-
-
-    void Update()
-    {
-
-    }
+  
 
     /*
     winmain
