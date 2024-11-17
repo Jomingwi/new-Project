@@ -28,7 +28,9 @@ public partial class SceneMgr : MonoBehaviour
             case eSCENE.eSCENE_BATTLE:
                 SceneManager.LoadScene("Battle");
                 break;
-
+            case eSCENE.eSCENE_LOADING:
+                SceneManager.LoadScene("Loading");
+                break;
         }
     }
     

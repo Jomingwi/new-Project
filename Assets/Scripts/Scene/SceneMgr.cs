@@ -9,7 +9,7 @@ public partial class SceneMgr : MonoBehaviour
     {
         Shared.SceneMgr = this;
 
-        //DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this);
     }
 
   
