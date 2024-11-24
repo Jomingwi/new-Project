@@ -8,3 +8,12 @@ public enum eSCENE
     eSCENE_END,
 }
 //scene 
+
+
+public enum eAI
+{
+    eAI_CREATE,
+    eAI_SEARCH,
+    eAI_MOVE,
+    eAI_RESET,
+}

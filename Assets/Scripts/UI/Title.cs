@@ -1,15 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
-public class Title : MonoBehaviour
+public partial class Title : MonoBehaviour
 {
+
     private void Start()
     {
-        OnBtnTitle();
+        SetVideo();
     }
-
 
     public void OnBtnTitle()
     {
