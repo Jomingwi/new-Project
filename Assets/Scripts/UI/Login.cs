@@ -49,6 +49,8 @@ public class Login : MonoBehaviour
             Shared.SceneMgr.ChangeScene(eSCENE.eSCENE_LOADING);
 
             StartCoroutine(DelayLoading(3));
+
+            gameObject.SetActive(false);
         }
     }
 

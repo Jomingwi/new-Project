@@ -8,3 +8,4 @@ public static class Shared
     public static SceneMgr SceneMgr; //singleton
 }
 
+//UI창 stack 으로 만들기
