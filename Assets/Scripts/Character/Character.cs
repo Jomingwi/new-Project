@@ -9,6 +9,8 @@ public abstract class Character
 
     protected abstract void SetHp();
 
+    public Strategy Strategy;
+
     //protected virtual void SetHp()
     //{
 
@@ -17,6 +19,14 @@ public abstract class Character
 }
 
 public class Player : Character
+{
+    protected override void SetHp()
+    {
+        Hp = 100;
+    }
+}
+
+public class Monster : Character
 {
     protected override void SetHp()
     {

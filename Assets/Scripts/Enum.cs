@@ -17,3 +17,9 @@ public enum eAI
     eAI_MOVE,
     eAI_RESET,
 }
+
+public enum eCHARACTER
+{
+    eCHARACTER_PLAYER,
+    eCHARACTER_MONSTER,
+}
