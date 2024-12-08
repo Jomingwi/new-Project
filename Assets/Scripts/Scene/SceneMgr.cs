@@ -12,7 +12,13 @@ public partial class SceneMgr : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-  
+    private void Start()
+    {
+        Shared.InitTableMgr();
+        Table_Character.Info info = Shared.TableMgr.Character.Get(1);
+    }
+
+
 
     /*
     winmain
