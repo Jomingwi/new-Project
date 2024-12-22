@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public static class Shared
 {
     public static SceneMgr SceneMgr; //singleton
     public static TableMgr TableMgr;
+    public static SoundMgr SoundMgr;
 
     public static TableMgr InitTableMgr()
     {
-        if(TableMgr == null)
+        if (TableMgr == null)
         {
             TableMgr = new TableMgr();
             TableMgr.Init();
@@ -19,6 +19,6 @@ public static class Shared
         return TableMgr;
     }
 
-}
 
+}
 //UI창 stack 으로 만들기

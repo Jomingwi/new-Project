@@ -1,3 +1,4 @@
+using SimpleJSON;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -51,6 +52,12 @@ public partial class Title : MonoBehaviour
     {
         JOYSTICK.OnDrag((PointerEventData)eventData);
     }
+
+ 
+    
+        
+        
+
 }
 
 
