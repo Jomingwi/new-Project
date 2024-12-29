@@ -58,7 +58,7 @@ Shader "CS_Mosaic/Mosaic"
 				fixed4 frag(v2f i) : SV_Target
 				{
 					float4 c = tex2D(_MainTex, float2(_OffsetX, _OffsetY) +
-					(floor(i.texcoord * _TilingX) / _TilingX,
+					(floor(i.texcoord * _TilingX) / (_TilingX),
 						floor(i.texcoord * _TilingY) / _TilingY));
 
 					UNITY_APPLY_FOG(i.fogCoord, col);
