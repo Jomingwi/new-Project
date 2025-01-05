@@ -7,6 +7,7 @@ public static class Shared
     public static SceneMgr SceneMgr; //singleton
     public static TableMgr TableMgr;
     public static SoundMgr SoundMgr;
+    public static MainCamera MainCamera;
 
     public static TableMgr InitTableMgr()
     {

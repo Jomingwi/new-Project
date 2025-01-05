@@ -10,12 +10,18 @@ using UnityEngine.Video;
 public partial class Title : MonoBehaviour
 {
     public JoyStick JOYSTICK;
-    
 
-    //private void Start()
-    //{
-    //    SetVideo();
-    //}
+     
+    private void Start()
+    {
+        // SetVideo();
+       
+    }
+
+    private void Update()
+    {
+       
+    }
 
     //public void OnBtnTitle()
     //{
@@ -53,11 +59,11 @@ public partial class Title : MonoBehaviour
         JOYSTICK.OnDrag((PointerEventData)eventData);
     }
 
- 
-    
-        
-        
-
+    public void OnBtnShake()
+    {
+        Shared.MainCamera.Shake(0);
+    }
+  
 }
 
 

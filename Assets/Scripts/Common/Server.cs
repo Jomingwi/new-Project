@@ -37,7 +37,9 @@ public class Server : MonoBehaviour
 
     public void OnBtnConnect()
     {
-        StartCoroutine(DBPost(Http + ConnectUrl, "dev"));
+        //StartCoroutine(DBPost(Http + ConnectUrl, "dev"));
+
+        Shared.MainCamera.Shake(0);
     }
 
    
