@@ -11,6 +11,8 @@ public class BattleMgr : MonoBehaviour
     List<int> list = new List<int>();
     List<string> list2 = new List<string>();
 
+
+    public bool GameOver;
     //add로 넣어줌
 
     //key 값과 value값으로 이루어짐 
@@ -32,6 +34,7 @@ public class BattleMgr : MonoBehaviour
         }
         return character;
     }
+
 
 }
 

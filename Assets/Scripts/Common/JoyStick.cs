@@ -40,7 +40,7 @@ public class JoyStick : MonoBehaviour
 
             IMGBALL.rectTransform.anchoredPosition = Position;
 
-            //¿Ãµø
+            //move
         }
             
     }

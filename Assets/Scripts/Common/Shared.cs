@@ -8,6 +8,9 @@ public static class Shared
     public static TableMgr TableMgr;
     public static SoundMgr SoundMgr;
     public static MainCamera MainCamera;
+    public static BattleMgr BattleMgr;
+
+    public static Transform Zone;
 
     public static TableMgr InitTableMgr()
     {
@@ -19,6 +22,8 @@ public static class Shared
 
         return TableMgr;
     }
+
+    
 
 
 }
